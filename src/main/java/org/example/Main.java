@@ -44,7 +44,7 @@ public class Main {
 
     public static void checkTickets() throws TicketException {
         System.out.println("Zoo-Mitarbeiter: Überprüft die Tickets...");
-        if (Math.random() > 0.6) {
+        if (Math.random() > 0) {
             throw new TicketException("Ein Ticket ist ungültig!");
         }
         System.out.println("Zoo-Mitarbeiter: Alle Tickets sind gültig.");
